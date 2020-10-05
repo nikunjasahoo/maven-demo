@@ -13,12 +13,12 @@ public class Application {
 	public String greet(String name) {
 		String message = "";
 		if(StringUtils.isNotBlank(name)) {
-			message = "Hi, "+name;
+			message = "Hi, "+name.trim();
 		}
 		return message;
 	}
 	
-	Application(){
+	public Application(){
 		System.out.println("Application java initialized.");
 	}
 	
