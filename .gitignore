@@ -12,7 +12,7 @@ buildNumber.properties
 /.metadata/
 
 # Eclipse project related files
-.DS_STORE
+.DS_Store
 .classpath
 .project
 .settings/
