@@ -5,6 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>maven-demo</name>
   
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+	<dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.11</version>
+	</dependency>
+  	
+  </dependencies>
+  
   <!-- START: Define java compile version -->
   <properties>
     <maven.compiler.source>1.7</maven.compiler.source>
